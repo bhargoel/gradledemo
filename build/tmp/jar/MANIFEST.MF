@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: Gradle Quickstart
+Implementation-Version: 1.4.9
+Main-Class: org.gradle.HelloWorld
+

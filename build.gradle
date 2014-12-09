@@ -1,0 +1,37 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.7
+
+group = 'it.cits.itarchitecture.cdddemo.cddashboard'
+archivesBaseName='my-app'
+version= '1.4.9'
+
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Quickstart', 'Implementation-Version': version
+		attributes 'Main-Class': 'org.gradle.HelloWorld'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+}
+
+
+uploadArchives {
+    repositories {
+       mavenDeployer {
+            repository(url : "file:///Users/bhargoel/Desktop/bgrepo")
+			
+        }
+	  
+    }
+}
