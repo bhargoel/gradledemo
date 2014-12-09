@@ -29,7 +29,7 @@ dependencies {
 uploadArchives {
     repositories {
        mavenDeployer {
-            repository(url : "file:///Users/bhargoel/Desktop/bgrepo")
+            repository(url : "file:///Users/bhargoel/.m2/repository")
 			
         }
 	  

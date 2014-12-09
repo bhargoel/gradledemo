@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
-  <info organisation="it.cits.itarchitecture.cdddemo.cddashboard" module="HelloWorld" revision="1.4.9" status="integration" publication="20141209135825">
+  <info organisation="it.cits.itarchitecture.cdddemo.cddashboard" module="HelloWorld" revision="1.4.9" status="integration" publication="20141209141549">
     <description/>
   </info>
   <configurations>
